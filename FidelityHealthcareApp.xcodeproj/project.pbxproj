@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		876FD223256581C60017DE08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876FD222256581C60017DE08 /* AppDelegate.swift */; };
+		876FD225256581C60017DE08 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876FD224256581C60017DE08 /* SceneDelegate.swift */; };
+		876FD227256581C60017DE08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876FD226256581C60017DE08 /* ViewController.swift */; };
+		876FD22A256581C60017DE08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 876FD228256581C60017DE08 /* Main.storyboard */; };
+		876FD22C256581C70017DE08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 876FD22B256581C70017DE08 /* Assets.xcassets */; };
+		876FD22F256581C70017DE08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 876FD22D256581C70017DE08 /* LaunchScreen.storyboard */; };
+		876FD23A256581C70017DE08 /* FidelityHealthcareAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876FD239256581C70017DE08 /* FidelityHealthcareAppTests.swift */; };
+		876FD245256581C70017DE08 /* FidelityHealthcareAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876FD244256581C70017DE08 /* FidelityHealthcareAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		876FD236256581C70017DE08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 876FD217256581C60017DE08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 876FD21E256581C60017DE08;
+			remoteInfo = FidelityHealthcareApp;
+		};
+		876FD241256581C70017DE08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 876FD217256581C60017DE08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 876FD21E256581C60017DE08;
+			remoteInfo = FidelityHealthcareApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		876FD21F256581C60017DE08 /* FidelityHealthcareApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FidelityHealthcareApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		876FD222256581C60017DE08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		876FD224256581C60017DE08 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		876FD226256581C60017DE08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		876FD229256581C60017DE08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		876FD22B256581C70017DE08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		876FD22E256581C70017DE08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		876FD230256581C70017DE08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		876FD235256581C70017DE08 /* FidelityHealthcareAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FidelityHealthcareAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		876FD239256581C70017DE08 /* FidelityHealthcareAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FidelityHealthcareAppTests.swift; sourceTree = "<group>"; };
+		876FD23B256581C70017DE08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		876FD240256581C70017DE08 /* FidelityHealthcareAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FidelityHealthcareAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		876FD244256581C70017DE08 /* FidelityHealthcareAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FidelityHealthcareAppUITests.swift; sourceTree = "<group>"; };
+		876FD246256581C70017DE08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		876FD21C256581C60017DE08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876FD232256581C70017DE08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876FD23D256581C70017DE08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		876FD216256581C60017DE08 = {
+			isa = PBXGroup;
+			children = (
+				876FD221256581C60017DE08 /* FidelityHealthcareApp */,
+				876FD238256581C70017DE08 /* FidelityHealthcareAppTests */,
+				876FD243256581C70017DE08 /* FidelityHealthcareAppUITests */,
+				876FD220256581C60017DE08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		876FD220256581C60017DE08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				876FD21F256581C60017DE08 /* FidelityHealthcareApp.app */,
+				876FD235256581C70017DE08 /* FidelityHealthcareAppTests.xctest */,
+				876FD240256581C70017DE08 /* FidelityHealthcareAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		876FD221256581C60017DE08 /* FidelityHealthcareApp */ = {
+			isa = PBXGroup;
+			children = (
+				876FD222256581C60017DE08 /* AppDelegate.swift */,
+				876FD224256581C60017DE08 /* SceneDelegate.swift */,
+				876FD226256581C60017DE08 /* ViewController.swift */,
+				876FD228256581C60017DE08 /* Main.storyboard */,
+				876FD22B256581C70017DE08 /* Assets.xcassets */,
+				876FD22D256581C70017DE08 /* LaunchScreen.storyboard */,
+				876FD230256581C70017DE08 /* Info.plist */,
+			);
+			path = FidelityHealthcareApp;
+			sourceTree = "<group>";
+		};
+		876FD238256581C70017DE08 /* FidelityHealthcareAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				876FD239256581C70017DE08 /* FidelityHealthcareAppTests.swift */,
+				876FD23B256581C70017DE08 /* Info.plist */,
+			);
+			path = FidelityHealthcareAppTests;
+			sourceTree = "<group>";
+		};
+		876FD243256581C70017DE08 /* FidelityHealthcareAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				876FD244256581C70017DE08 /* FidelityHealthcareAppUITests.swift */,
+				876FD246256581C70017DE08 /* Info.plist */,
+			);
+			path = FidelityHealthcareAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		876FD21E256581C60017DE08 /* FidelityHealthcareApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 876FD249256581C70017DE08 /* Build configuration list for PBXNativeTarget "FidelityHealthcareApp" */;
+			buildPhases = (
+				876FD21B256581C60017DE08 /* Sources */,
+				876FD21C256581C60017DE08 /* Frameworks */,
+				876FD21D256581C60017DE08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FidelityHealthcareApp;
+			productName = FidelityHealthcareApp;
+			productReference = 876FD21F256581C60017DE08 /* FidelityHealthcareApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		876FD234256581C70017DE08 /* FidelityHealthcareAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 876FD24C256581C70017DE08 /* Build configuration list for PBXNativeTarget "FidelityHealthcareAppTests" */;
+			buildPhases = (
+				876FD231256581C70017DE08 /* Sources */,
+				876FD232256581C70017DE08 /* Frameworks */,
+				876FD233256581C70017DE08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				876FD237256581C70017DE08 /* PBXTargetDependency */,
+			);
+			name = FidelityHealthcareAppTests;
+			productName = FidelityHealthcareAppTests;
+			productReference = 876FD235256581C70017DE08 /* FidelityHealthcareAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		876FD23F256581C70017DE08 /* FidelityHealthcareAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 876FD24F256581C70017DE08 /* Build configuration list for PBXNativeTarget "FidelityHealthcareAppUITests" */;
+			buildPhases = (
+				876FD23C256581C70017DE08 /* Sources */,
+				876FD23D256581C70017DE08 /* Frameworks */,
+				876FD23E256581C70017DE08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				876FD242256581C70017DE08 /* PBXTargetDependency */,
+			);
+			name = FidelityHealthcareAppUITests;
+			productName = FidelityHealthcareAppUITests;
+			productReference = 876FD240256581C70017DE08 /* FidelityHealthcareAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		876FD217256581C60017DE08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					876FD21E256581C60017DE08 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					876FD234256581C70017DE08 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 876FD21E256581C60017DE08;
+					};
+					876FD23F256581C70017DE08 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 876FD21E256581C60017DE08;
+					};
+				};
+			};
+			buildConfigurationList = 876FD21A256581C60017DE08 /* Build configuration list for PBXProject "FidelityHealthcareApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 876FD216256581C60017DE08;
+			productRefGroup = 876FD220256581C60017DE08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				876FD21E256581C60017DE08 /* FidelityHealthcareApp */,
+				876FD234256581C70017DE08 /* FidelityHealthcareAppTests */,
+				876FD23F256581C70017DE08 /* FidelityHealthcareAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		876FD21D256581C60017DE08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876FD22F256581C70017DE08 /* LaunchScreen.storyboard in Resources */,
+				876FD22C256581C70017DE08 /* Assets.xcassets in Resources */,
+				876FD22A256581C60017DE08 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876FD233256581C70017DE08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876FD23E256581C70017DE08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		876FD21B256581C60017DE08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876FD227256581C60017DE08 /* ViewController.swift in Sources */,
+				876FD223256581C60017DE08 /* AppDelegate.swift in Sources */,
+				876FD225256581C60017DE08 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876FD231256581C70017DE08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876FD23A256581C70017DE08 /* FidelityHealthcareAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876FD23C256581C70017DE08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876FD245256581C70017DE08 /* FidelityHealthcareAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		876FD237256581C70017DE08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 876FD21E256581C60017DE08 /* FidelityHealthcareApp */;
+			targetProxy = 876FD236256581C70017DE08 /* PBXContainerItemProxy */;
+		};
+		876FD242256581C70017DE08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 876FD21E256581C60017DE08 /* FidelityHealthcareApp */;
+			targetProxy = 876FD241256581C70017DE08 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		876FD228256581C60017DE08 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				876FD229256581C60017DE08 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		876FD22D256581C70017DE08 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				876FD22E256581C70017DE08 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		876FD247256581C70017DE08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		876FD248256581C70017DE08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		876FD24A256581C70017DE08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FidelityHealthcareApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = luqman.FidelityHealthcareApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		876FD24B256581C70017DE08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FidelityHealthcareApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = luqman.FidelityHealthcareApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		876FD24D256581C70017DE08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FidelityHealthcareAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = luqman.FidelityHealthcareAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FidelityHealthcareApp.app/FidelityHealthcareApp";
+			};
+			name = Debug;
+		};
+		876FD24E256581C70017DE08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FidelityHealthcareAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = luqman.FidelityHealthcareAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FidelityHealthcareApp.app/FidelityHealthcareApp";
+			};
+			name = Release;
+		};
+		876FD250256581C70017DE08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FidelityHealthcareAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = luqman.FidelityHealthcareAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FidelityHealthcareApp;
+			};
+			name = Debug;
+		};
+		876FD251256581C70017DE08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FidelityHealthcareAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = luqman.FidelityHealthcareAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FidelityHealthcareApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		876FD21A256581C60017DE08 /* Build configuration list for PBXProject "FidelityHealthcareApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				876FD247256581C70017DE08 /* Debug */,
+				876FD248256581C70017DE08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		876FD249256581C70017DE08 /* Build configuration list for PBXNativeTarget "FidelityHealthcareApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				876FD24A256581C70017DE08 /* Debug */,
+				876FD24B256581C70017DE08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		876FD24C256581C70017DE08 /* Build configuration list for PBXNativeTarget "FidelityHealthcareAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				876FD24D256581C70017DE08 /* Debug */,
+				876FD24E256581C70017DE08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		876FD24F256581C70017DE08 /* Build configuration list for PBXNativeTarget "FidelityHealthcareAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				876FD250256581C70017DE08 /* Debug */,
+				876FD251256581C70017DE08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 876FD217256581C60017DE08 /* Project object */;
+}
