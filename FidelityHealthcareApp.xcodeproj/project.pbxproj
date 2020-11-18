@@ -7,14 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8749C6B925659FB600A4278F /* SearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8749C6B825659FB600A4278F /* SearchResultCell.swift */; };
 		876FD223256581C60017DE08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876FD222256581C60017DE08 /* AppDelegate.swift */; };
 		876FD225256581C60017DE08 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876FD224256581C60017DE08 /* SceneDelegate.swift */; };
-		876FD227256581C60017DE08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876FD226256581C60017DE08 /* ViewController.swift */; };
 		876FD22A256581C60017DE08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 876FD228256581C60017DE08 /* Main.storyboard */; };
 		876FD22C256581C70017DE08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 876FD22B256581C70017DE08 /* Assets.xcassets */; };
 		876FD22F256581C70017DE08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 876FD22D256581C70017DE08 /* LaunchScreen.storyboard */; };
 		876FD23A256581C70017DE08 /* FidelityHealthcareAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876FD239256581C70017DE08 /* FidelityHealthcareAppTests.swift */; };
 		876FD245256581C70017DE08 /* FidelityHealthcareAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876FD244256581C70017DE08 /* FidelityHealthcareAppUITests.swift */; };
+		876FD25B2565820A0017DE08 /* ImageDownloadOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876FD2562565820A0017DE08 /* ImageDownloadOperation.swift */; };
+		876FD25C2565820A0017DE08 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876FD2572565820A0017DE08 /* NetworkManager.swift */; };
+		876FD25D2565820A0017DE08 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876FD2582565820A0017DE08 /* Reachability.swift */; };
+		876FD25E2565820A0017DE08 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876FD2592565820A0017DE08 /* Request.swift */; };
+		876FD25F2565820A0017DE08 /* ImageDownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876FD25A2565820A0017DE08 /* ImageDownloadManager.swift */; };
+		876FD2672565822E0017DE08 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876FD2642565822E0017DE08 /* Extension.swift */; };
+		876FD2682565822E0017DE08 /* GCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876FD2652565822E0017DE08 /* GCD.swift */; };
+		876FD2692565822E0017DE08 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876FD2662565822E0017DE08 /* Result.swift */; };
+		876FD26F256582550017DE08 /* DataCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876FD26E256582550017DE08 /* DataCache.swift */; };
+		876FD275256585940017DE08 /* RequestConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876FD274256585940017DE08 /* RequestConfig.swift */; };
+		876FD27C256585A90017DE08 /* FidelityHealthcareViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876FD27A256585A90017DE08 /* FidelityHealthcareViewModel.swift */; };
+		876FD27D256585A90017DE08 /* ImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876FD27B256585A90017DE08 /* ImageModel.swift */; };
+		876FD283256585BF0017DE08 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876FD282256585BF0017DE08 /* Constants.swift */; };
+		876FD28C256585D10017DE08 /* SearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876FD289256585D10017DE08 /* SearchResults.swift */; };
+		876FD28D256585D10017DE08 /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876FD28A256585D10017DE08 /* Results.swift */; };
+		876FD29C2565860B0017DE08 /* FidelityHealthcareVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876FD29B2565860B0017DE08 /* FidelityHealthcareVC.swift */; };
+		876FD2A5256586660017DE08 /* SearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876FD2A4256586660017DE08 /* SearchService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +52,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8749C6B825659FB600A4278F /* SearchResultCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultCell.swift; sourceTree = "<group>"; };
 		876FD21F256581C60017DE08 /* FidelityHealthcareApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FidelityHealthcareApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		876FD222256581C60017DE08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		876FD224256581C60017DE08 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		876FD226256581C60017DE08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		876FD229256581C60017DE08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		876FD22B256581C70017DE08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		876FD22E256581C70017DE08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +66,23 @@
 		876FD240256581C70017DE08 /* FidelityHealthcareAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FidelityHealthcareAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		876FD244256581C70017DE08 /* FidelityHealthcareAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FidelityHealthcareAppUITests.swift; sourceTree = "<group>"; };
 		876FD246256581C70017DE08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		876FD2562565820A0017DE08 /* ImageDownloadOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDownloadOperation.swift; sourceTree = "<group>"; };
+		876FD2572565820A0017DE08 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		876FD2582565820A0017DE08 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		876FD2592565820A0017DE08 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		876FD25A2565820A0017DE08 /* ImageDownloadManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDownloadManager.swift; sourceTree = "<group>"; };
+		876FD2642565822E0017DE08 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		876FD2652565822E0017DE08 /* GCD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCD.swift; sourceTree = "<group>"; };
+		876FD2662565822E0017DE08 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		876FD26E256582550017DE08 /* DataCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataCache.swift; sourceTree = "<group>"; };
+		876FD274256585940017DE08 /* RequestConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestConfig.swift; sourceTree = "<group>"; };
+		876FD27A256585A90017DE08 /* FidelityHealthcareViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FidelityHealthcareViewModel.swift; sourceTree = "<group>"; };
+		876FD27B256585A90017DE08 /* ImageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageModel.swift; sourceTree = "<group>"; };
+		876FD282256585BF0017DE08 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		876FD289256585D10017DE08 /* SearchResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResults.swift; sourceTree = "<group>"; };
+		876FD28A256585D10017DE08 /* Results.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
+		876FD29B2565860B0017DE08 /* FidelityHealthcareVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FidelityHealthcareVC.swift; sourceTree = "<group>"; };
+		876FD2A4256586660017DE08 /* SearchService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +133,12 @@
 		876FD221256581C60017DE08 /* FidelityHealthcareApp */ = {
 			isa = PBXGroup;
 			children = (
+				876FD273256585840017DE08 /* FidelityHealthcare */,
+				876FD26D256582430017DE08 /* DataCache */,
+				876FD263256582250017DE08 /* Utilities */,
+				876FD255256581FD0017DE08 /* NetworkManager */,
 				876FD222256581C60017DE08 /* AppDelegate.swift */,
 				876FD224256581C60017DE08 /* SceneDelegate.swift */,
-				876FD226256581C60017DE08 /* ViewController.swift */,
-				876FD228256581C60017DE08 /* Main.storyboard */,
 				876FD22B256581C70017DE08 /* Assets.xcassets */,
 				876FD22D256581C70017DE08 /* LaunchScreen.storyboard */,
 				876FD230256581C70017DE08 /* Info.plist */,
@@ -126,6 +162,109 @@
 				876FD246256581C70017DE08 /* Info.plist */,
 			);
 			path = FidelityHealthcareAppUITests;
+			sourceTree = "<group>";
+		};
+		876FD255256581FD0017DE08 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				876FD25A2565820A0017DE08 /* ImageDownloadManager.swift */,
+				876FD2562565820A0017DE08 /* ImageDownloadOperation.swift */,
+				876FD2572565820A0017DE08 /* NetworkManager.swift */,
+				876FD2582565820A0017DE08 /* Reachability.swift */,
+				876FD2592565820A0017DE08 /* Request.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		876FD263256582250017DE08 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				876FD2642565822E0017DE08 /* Extension.swift */,
+				876FD2652565822E0017DE08 /* GCD.swift */,
+				876FD2662565822E0017DE08 /* Result.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		876FD26D256582430017DE08 /* DataCache */ = {
+			isa = PBXGroup;
+			children = (
+				876FD26E256582550017DE08 /* DataCache.swift */,
+			);
+			path = DataCache;
+			sourceTree = "<group>";
+		};
+		876FD273256585840017DE08 /* FidelityHealthcare */ = {
+			isa = PBXGroup;
+			children = (
+				876FD274256585940017DE08 /* RequestConfig.swift */,
+				876FD2792565859F0017DE08 /* ViewModels */,
+				876FD281256585B80017DE08 /* Constants */,
+				876FD287256585C80017DE08 /* Models */,
+				876FD291256585DB0017DE08 /* Views */,
+				876FD2A32565865C0017DE08 /* Services */,
+			);
+			path = FidelityHealthcare;
+			sourceTree = "<group>";
+		};
+		876FD2792565859F0017DE08 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				876FD27A256585A90017DE08 /* FidelityHealthcareViewModel.swift */,
+				876FD27B256585A90017DE08 /* ImageModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		876FD281256585B80017DE08 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				876FD282256585BF0017DE08 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		876FD287256585C80017DE08 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				876FD289256585D10017DE08 /* SearchResults.swift */,
+				876FD28A256585D10017DE08 /* Results.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		876FD291256585DB0017DE08 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				876FD292256585E60017DE08 /* ViewControllers */,
+				876FD293256585F00017DE08 /* Cell */,
+				876FD228256581C60017DE08 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		876FD292256585E60017DE08 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				876FD29B2565860B0017DE08 /* FidelityHealthcareVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		876FD293256585F00017DE08 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8749C6B825659FB600A4278F /* SearchResultCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		876FD2A32565865C0017DE08 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				876FD2A4256586660017DE08 /* SearchService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +397,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				876FD227256581C60017DE08 /* ViewController.swift in Sources */,
+				876FD275256585940017DE08 /* RequestConfig.swift in Sources */,
+				876FD27D256585A90017DE08 /* ImageModel.swift in Sources */,
+				876FD2682565822E0017DE08 /* GCD.swift in Sources */,
+				876FD2672565822E0017DE08 /* Extension.swift in Sources */,
+				876FD28D256585D10017DE08 /* Results.swift in Sources */,
+				876FD2A5256586660017DE08 /* SearchService.swift in Sources */,
 				876FD223256581C60017DE08 /* AppDelegate.swift in Sources */,
+				876FD25D2565820A0017DE08 /* Reachability.swift in Sources */,
+				876FD25F2565820A0017DE08 /* ImageDownloadManager.swift in Sources */,
+				876FD283256585BF0017DE08 /* Constants.swift in Sources */,
+				8749C6B925659FB600A4278F /* SearchResultCell.swift in Sources */,
+				876FD25C2565820A0017DE08 /* NetworkManager.swift in Sources */,
+				876FD25E2565820A0017DE08 /* Request.swift in Sources */,
+				876FD26F256582550017DE08 /* DataCache.swift in Sources */,
 				876FD225256581C60017DE08 /* SceneDelegate.swift in Sources */,
+				876FD29C2565860B0017DE08 /* FidelityHealthcareVC.swift in Sources */,
+				876FD28C256585D10017DE08 /* SearchResults.swift in Sources */,
+				876FD27C256585A90017DE08 /* FidelityHealthcareViewModel.swift in Sources */,
+				876FD25B2565820A0017DE08 /* ImageDownloadOperation.swift in Sources */,
+				876FD2692565822E0017DE08 /* Result.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,12 +593,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3RH23VF44C;
 				INFOPLIST_FILE = FidelityHealthcareApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = luqman.FidelityHealthcareApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ts.luqman;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -455,12 +612,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3RH23VF44C;
 				INFOPLIST_FILE = FidelityHealthcareApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = luqman.FidelityHealthcareApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ts.luqman;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
