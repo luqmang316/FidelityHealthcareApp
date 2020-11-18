@@ -9,27 +9,28 @@ import UIKit
 
 class FidelityHealthcareVC: UIViewController {
     
-    let identifierCell = "SearchResultCell"
-
+    // MARK: - Outlets
     @IBOutlet weak var tableView: UITableView!
     
+    // MARK: - Property
     private var searchBarController: UISearchController!
     private var viewModel = FidelityHealthcareViewModel()
     
     private var isFirstTimeActive = true
+    let identifierCell = "SearchResultCell"
     
     
+    // MARK: - Lifecycle Methods
     override func viewDidLoad() {
         super.viewDidLoad()
         
         configureUI()
         viewModelClosures()
     }
-    
     override func viewDidAppear(_ animated: Bool) {
         
         super.viewDidAppear(animated)
-        
+    
         if isFirstTimeActive {
             searchBarController.isActive = true
             isFirstTimeActive = false
@@ -61,10 +62,12 @@ extension FidelityHealthcareVC {
         navigationController?.navigationBar.prefersLargeTitles = true
         navigationController?.navigationItem.largeTitleDisplayMode = .automatic
         
+        // Set table row height
         tableView.rowHeight = UITableView.automaticDimension
         tableView.estimatedRowHeight = UITableView.automaticDimension
+        // Set table footer view
         tableView.tableFooterView = UIView()
-
+        
     }
 }
 
@@ -73,6 +76,7 @@ extension FidelityHealthcareVC {
     
     fileprivate func viewModelClosures() {
         
+        //Show alert view on error
         viewModel.showAlert = { [weak self] (message) in
             self?.searchBarController.isActive = false
             self?.showAlert(message: message)
@@ -86,6 +90,7 @@ extension FidelityHealthcareVC {
     
 }
 
+//MARK:- UISearchBarDelegate
 extension FidelityHealthcareVC: UISearchControllerDelegate, UISearchBarDelegate {
     
     private func createSearchBar() {
@@ -112,7 +117,6 @@ extension FidelityHealthcareVC: UISearchControllerDelegate, UISearchBarDelegate 
         
         searchBarController.searchBar.resignFirstResponder()
     }
-    
 }
 
 
@@ -123,10 +127,11 @@ extension FidelityHealthcareVC: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
         return self.viewModel.dataSource.count
-
+        
     }
     
     
+    //Show cell for row
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         guard let cell = tableView.dequeueReusableCell(withIdentifier: identifierCell, for: indexPath) as? SearchResultCell else {
@@ -140,6 +145,7 @@ extension FidelityHealthcareVC: UITableViewDataSource {
         
     }
     
+    //Set row height
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         
         return UITableView.automaticDimension
