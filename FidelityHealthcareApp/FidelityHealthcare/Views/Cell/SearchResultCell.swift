@@ -7,34 +7,13 @@
 
 import UIKit
 
-
-class SearchBusinessCellViewModel {
-    
-    let imageURL: String
-    let title: String
-    let type: String
-    let synopsis: String
-    
-    init(result: Results) {
-        
-        self.imageURL = result.image_url
-        self.title = result.title
-        self.type = result.type
-        self.synopsis = result.synopsis
-    }
-    
-}
-
-
 class SearchResultCell: UITableViewCell {
 
     // MARK: - Outlets
     @IBOutlet weak var imageIcon: UIImageView!
     @IBOutlet weak var background: UIView!
     @IBOutlet weak var titleLbl: UILabel!
-    
     @IBOutlet weak var typeLbl: UILabel!
-    
     @IBOutlet weak var synopsisLbl: UILabel!
     
     public var viewModel: SearchBusinessCellViewModel!{

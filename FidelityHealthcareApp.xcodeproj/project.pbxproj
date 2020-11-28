@@ -32,6 +32,7 @@
 		876FD28D256585D10017DE08 /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876FD28A256585D10017DE08 /* Results.swift */; };
 		876FD29C2565860B0017DE08 /* FidelityHealthcareVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876FD29B2565860B0017DE08 /* FidelityHealthcareVC.swift */; };
 		876FD2A5256586660017DE08 /* SearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876FD2A4256586660017DE08 /* SearchService.swift */; };
+		87E183062568BBFD00E8ACA7 /* SearchBusinessCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E183052568BBFD00E8ACA7 /* SearchBusinessCellViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,7 @@
 		876FD28A256585D10017DE08 /* Results.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
 		876FD29B2565860B0017DE08 /* FidelityHealthcareVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FidelityHealthcareVC.swift; sourceTree = "<group>"; };
 		876FD2A4256586660017DE08 /* SearchService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchService.swift; sourceTree = "<group>"; };
+		87E183052568BBFD00E8ACA7 /* SearchBusinessCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBusinessCellViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -211,6 +213,7 @@
 			isa = PBXGroup;
 			children = (
 				876FD27A256585A90017DE08 /* FidelityHealthcareViewModel.swift */,
+				87E183052568BBFD00E8ACA7 /* SearchBusinessCellViewModel.swift */,
 				876FD27B256585A90017DE08 /* ImageModel.swift */,
 			);
 			path = ViewModels;
@@ -406,6 +409,7 @@
 				876FD223256581C60017DE08 /* AppDelegate.swift in Sources */,
 				876FD25D2565820A0017DE08 /* Reachability.swift in Sources */,
 				876FD25F2565820A0017DE08 /* ImageDownloadManager.swift in Sources */,
+				87E183062568BBFD00E8ACA7 /* SearchBusinessCellViewModel.swift in Sources */,
 				876FD283256585BF0017DE08 /* Constants.swift in Sources */,
 				8749C6B925659FB600A4278F /* SearchResultCell.swift in Sources */,
 				876FD25C2565820A0017DE08 /* NetworkManager.swift in Sources */,
